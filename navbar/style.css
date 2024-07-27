@@ -1,0 +1,28 @@
+body {
+    font-family: monospace;
+    background-color: #1C2A44;
+}
+
+ul {
+    margin: 5%;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0;
+    border: 0.1px solid #099fff;
+    border-radius: 25px;
+    background-color: #18181b;
+    box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 1.19);
+}
+li{
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+li:after{
+    display: block;
+}
+li:hover:after{
+    transform: scaleX(1);
+}
